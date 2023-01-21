@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border
+}
+
+.body {
+  @apply relative
+}
+
+header {
+  @apply relative h-[60rem] w-[100vw] bg-[url(/media/contour.svg)]
+}
+
+.ourser {
+  line-height: 3rem;
+}
