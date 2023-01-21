@@ -43,7 +43,7 @@ header {
 }
 
 .btn {
-  @apply py-[0.5rem] px-[1rem] bg-[#1b734f] w-[max-content] text-white rounded text-[1.5rem] mt-[1rem]
+  @apply py-[0.5rem] px-[1rem] bg-[#1b734f] w-[max-content] text-white rounded text-[1.5rem] mt-[1rem] cursor-pointer
 }
 
 .learn h1 {
