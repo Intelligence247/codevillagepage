@@ -7,13 +7,101 @@
 }
 
 .body {
-  @apply relative
+  @apply relative overflow-hidden
 }
 
 header {
-  @apply relative h-[60rem] w-[100vw] bg-[url(/media/contour.svg)]
+  @apply relative h-[60rem] w-[100vw] bg-[url(/media/contour.svg)] mb-[5rem]
 }
 
-.ourser {
-  line-height: 3rem;
+.logos img {
+  @apply w-[2.5rem]
+}
+
+.ecosystemtexts {
+  @apply flex w-[65rem] m-[auto] gap-8
+}
+
+.web h1 {
+  @apply text-[1.5rem] text-[#18214d] mb-2
+}
+
+.whatwedo {
+  @apply flex justify-between mt-[3rem]
+}
+
+.web {
+  @apply flex w-[31.33%] gap-[1rem]
+}
+
+.web img {
+  @apply w-[3rem] h-[3rem]
+}
+
+.global {
+  @apply bg-[#eff2f6] h-[33rem] px-[10rem] flex items-center justify-between
+}
+
+.btn {
+  @apply py-[0.5rem] px-[1rem] bg-[#1b734f] w-[max-content] text-white rounded text-[1.5rem] mt-[1rem]
+}
+
+.learn h1 {
+  @apply text-[#18214d] text-[3rem] font-[600] leading-[3rem]
+}
+
+.learn {
+  @apply w-[40rem] flex flex-col gap-8 justify-center h-[100%]
+}
+
+.web2 h1 {
+  @apply text-[#1b734f] mb-1
+}
+
+.web2 {
+  @apply w-[18rem]
+}
+
+.schedule {
+  @apply flex flex-col gap-8
+}
+
+.expertise {
+  @apply bg-[#f4f8f6] px-[6rem] pt-[5rem] w-[100vw]
+}
+
+.expertise h1 {
+  @apply text-[4rem] text-center font-[700]
+}
+
+.expertise p {
+  @apply text-[1.5rem] m-[auto] text-center w-[50rem]
+}
+
+.images {
+  @apply flex flex-wrap gap-[5rem] justify-center mt-[5rem] pb-[6rem]
+}
+
+.kids {
+  @apply mb-[5rem]
+}
+
+.kids p {
+  @apply text-center
+}
+
+.kids p:last-child {
+  @apply font-[600] text-[#18214d] flex gap-2 justify-center mt-6 items-center
+}
+
+.address {
+  @apply bg-[#f4f8f6] flex justify-between px-[10rem] pt-[4rem]
+}
+
+.programs {
+  @apply flex gap-[1.5rem] flex-col w-[20%]
+}
+
+.programs p:first-child {
+  @apply text-[2rem] text-[#18214d]
 }
