@@ -95,13 +95,25 @@ header {
 }
 
 .address {
-  @apply bg-[#f4f8f6] flex justify-between px-[10rem] pt-[4rem]
+  @apply bg-[#f4f8f6] px-[10rem] py-[4rem] h-[auto]
 }
 
 .programs {
+  @apply flex justify-between
+}
+
+.program {
   @apply flex gap-[1.5rem] flex-col w-[20%]
 }
 
-.programs p:first-child {
+.program p:first-child {
   @apply text-[2rem] text-[#18214d]
+}
+
+.program p {
+  @apply text-[1.4rem]
+}
+
+.numbers {
+  @apply text-[#18214d] font-[700] cursor-pointer text-[1.4rem]
 }

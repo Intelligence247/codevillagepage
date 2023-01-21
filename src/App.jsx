@@ -143,31 +143,46 @@ function App() {
 
       <div className="address">
         <div className="programs">
-          <img src="/media/cv-logo.svg" alt="" />
-          <p>Building the tech talents for the future of work.</p>
+          <div className="program">
+            <img src="/media/cv-logo.svg" alt="" />
+            <p>Building the tech talents for the future of work.</p>
+          </div>
+
+          <div className="program">
+            <p>Our Programs</p>
+            <p>Fullstack Training</p>
+            <p>Kids & Teens Code Classes</p>
+          </div>
+
+          <div className="program">
+            <p>Links</p>
+            <p><a href="">Careers</a></p>
+            <p><a href="">Refund Policy</a></p>
+            <p><a href="">Privacy Policy</a></p>
+          </div>
+
+
+          <div className="program">
+            <p>Contacts</p>
+            <p>Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger Road, Ilorin, Nigeria</p>
+            <p className='numbers'>08168861541 (Nigeria)</p>
+            <p className='numbers'>+1 (707) 681-1531 (International)</p>
+            <p className='numbers'>+1 (707) 681-1531 (Whatsapp)</p>
+            <p className='numbers'>hello@codevillage.ng</p>
+          </div>
         </div>
 
-        <div className="programs">
-          <p>Our Programs</p>
-          <p>Fullstack Training</p>
-          <p>Kids & Teens Code Classes</p>
-        </div>
+        <div className="horizontal bg-[#e0e0e0] w-[100%] h-[2px] my-[3rem]"></div>
+        <div className="footer flex justify-between">
+          <p className=''>Copyright &copy; 2020-2023 Codevillage Limited</p>
 
-        <div className="programs">
-          <p>Links</p>
-          <p><a href="">Careers</a></p>
-          <p><a href="">Refund Policy</a></p>
-          <p><a href="">Privacy Policy</a></p>
-        </div>
+          <div className="footerlogo flex gap-6">
+            <img src="/media/fb-icon.svg" alt="" />
+            <img src="/media/tw-icon.svg" alt="" />
+            <img src="/media/github-icon.svg" alt="" />
+            <img src="/media/location.svg" alt="" />
+          </div>
 
-
-        <div className="programs">
-          <p>Contacts</p>
-          <p>Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger Road, Ilorin, Nigeria</p>
-          <p>08168861541 (Nigeria)</p>
-          <p>+1 (707) 681-1531 (International)</p>
-          <p>+1 (707) 681-1531 (Whatsapp)</p>
-          <p>hello@codevillage.ng</p>
         </div>
       </div>
 
