@@ -31,7 +31,7 @@ function App() {
           <p className='w-[40%] text-[1rem] grid place-items-center leading-[2rem]' >Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
         </div>
 
-        <img src="/media/cv-office.jpg" className='mt-[4rem]' alt="" />
+        <img src="/media/cv-office.jpg" className='mt-[4rem] w-[100vw]' alt="" />
 
         <div className="whatwedo">
           <div className="web">
@@ -66,7 +66,7 @@ function App() {
         <div className="learn">
           <h1>Learn Web & Mobile Development. Access the global job market.</h1>
           <p>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
-          <p className='btn'>Learn more</p>
+          <p className='btn'><a href="/src/learn.jsx">Learn more</a></p>
         </div>
 
         <div className="line bg-[#d1d5db] h-[80%] w-[2px] flex justify-self-center"></div>
