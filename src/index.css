@@ -128,3 +128,7 @@ header {
 .numbers {
   @apply text-[#18214d] font-[700] cursor-pointer text-[1.4rem]
 }
+
+.custom {
+  @apply text-[#9ca3af]
+}

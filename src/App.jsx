@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Footer from './Components/Footer'
+import Features from './Components/Features'
+import Programs from './Components/Programs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,29 +36,20 @@ function App() {
         <img src="/media/cv-office.jpg" className='mt-[4rem] w-[100vw]' alt="" />
 
         <div className="whatwedo">
-          <div className="web">
-            <img src="/media/bookmark-circle.svg" alt="" />
-            <div className="right">
-              <h1>Web & Mobile Development</h1>
-              <p>We design and develop tech solutions for SMEs and Government Agency.</p>
-            </div>
-          </div>
 
-          <div className="web">
-            <img src="/media/tent-circle.svg" alt="" />
-            <div className="right">
-              <h1>Bootcamps & Trainings</h1>
-              <p>We’re building the next generation of tech talents.</p>
-            </div>
-          </div>
+          <Features
+            img="/media/bookmark-circle.svg"
+            title={'Web & Mobile Development'}
+            descr={'We design and develop tech solutions for SMEs and Government Agency.'} />
 
-          <div className="web">
-            <img src="/media/workspace-circle.svg" alt="" />
-            <div className="right">
-              <h1>Workspaces & Tech Hub</h1>
-              <p>Work and Connect with other Creatives. All in a fun and cozy environment.</p>
-            </div>
-          </div>
+          <Features
+            img="/media/tent-circle.svg"
+            title={'Bootcamps & Trainings'}
+            descr={'We’re building the next generation of tech talents.'} />
+          <Features
+            img="/media/workspace-circle.svg"
+            title={'Workspaces & Tech Hub'}
+            descr={'Work and Connect with other Creatives. All in a fun and cozy environment.'} />
 
         </div>
 
@@ -72,31 +65,22 @@ function App() {
         <div className="line bg-[#d1d5db] h-[80%] w-[2px] flex justify-self-center"></div>
 
         <div className="schedule">
-          <div className="web web2">
-            <img src="/media/mail-white.svg" alt="" />
-            <div className="right">
-              <h1>Program Schedule</h1>
-              <p className='font-[600]'>6 months training + 6months paid internship</p>
-              <p className='text-[#9ca3af]'>(there is a custom schedule for students)</p>
-            </div>
-          </div>
 
-          <div className="web web2">
-            <img src="/media/group-white.svg" alt="" />
-            <div className="right">
-              <h1>Our Curriculum</h1>
-              <p>It covers the fundamentals and advanced concepts of web & mobile development</p>
-            </div>
-          </div>
+          <Programs
+            img="/media/mail-white.svg"
+            title={'Program Schedule'}
+            descr={'6 months training + 6months paid internships'}
+            custom={'(there is a custom schedule for students)'} />
 
-          <div className="web web2">
-            <img src="/media/group-white.svg" alt="" />
-            <div className="right">
-              <h1>Experiential Learning</h1>
-              <p className='font-[500]'>30+ Hands-on Projects &
-                5+ Real World (Production Grade) Projects</p>
-            </div>
-          </div>
+          <Programs
+            img="/media/group-white.svg"
+            title={'Our Curriculum'}
+            descr={'It covers the fundamentals and advanced concepts of web & mobile development'} />
+          <Programs
+            img="/media/group-white.svg"
+            title={'Experiential Learning'}
+            descr={'We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.'} />
+
         </div>
       </div>
 
