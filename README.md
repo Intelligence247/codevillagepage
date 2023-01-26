@@ -10,8 +10,7 @@
 - JavaScript
 - TailwindCss
 ## Preview here
-[Go Live]()
-
+[Go Live](https://tangerine-puppy-5add96.netlify.app)
 ![screenshot](/public/media/sketch1.png)
 ![screenshot](/public/media/sketch2.png)
 ![screenshot](/public/media/sketch3.png)

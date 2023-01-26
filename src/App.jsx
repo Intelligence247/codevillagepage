@@ -5,7 +5,6 @@ import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <div className="body">
       <header>
@@ -176,11 +175,6 @@ function App() {
         <div className="horizontal bg-[#e0e0e0] w-[100%] h-[2px] my-[3rem]"></div>
         <Footer />
       </div>
-
-
-
-
-
 
 
     </div>
