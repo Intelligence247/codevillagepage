@@ -6,6 +6,17 @@
   @apply p-0 m-0 box-border
 }
 
+*::-webkit-scrollbar {
+  width: 6px;
+  background-color: white;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1b734f;
+  border-radius: 30px;
+}
+
 .body {
   @apply relative overflow-hidden
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -173,17 +174,7 @@ function App() {
         </div>
 
         <div className="horizontal bg-[#e0e0e0] w-[100%] h-[2px] my-[3rem]"></div>
-        <div className="footer flex justify-between">
-          <p className=''>Copyright &copy; 2020-2023 Codevillage Limited</p>
-
-          <div className="footerlogo flex gap-6">
-            <img src="/media/fb-icon.svg" alt="" />
-            <img src="/media/tw-icon.svg" alt="" />
-            <img src="/media/github-icon.svg" alt="" />
-            <img src="/media/location.svg" alt="" />
-          </div>
-
-        </div>
+        <Footer />
       </div>
 
 
