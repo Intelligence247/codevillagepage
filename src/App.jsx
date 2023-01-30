@@ -4,6 +4,7 @@ import './App.css'
 import Footer from './Components/Footer'
 import Features from './Components/Features'
 import Programs from './Components/Programs'
+import Btns from './Components/Btns'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,7 @@ function App() {
           <img src="/media/cv-logo.svg" alt="" className='w-[8rem]' />
           <h1 className='text-[#18214d] text-[5rem] leading-[6rem] font-[600] font-segoe UI w-[25rem] mt-[3rem]'>We build world class Tech talents</h1>
           <p className='text-[1.5rem] w-[40rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
-          <p className='btn'>Enroll now</p>
+          <Btns text={"Enroll now"} />
           <div className="logos flex gap-6 mt-[3rem]">
             <img src="/media/fb-icon.svg" alt="" />
             <img src="/media/tw-icon.svg" alt="" />
@@ -59,7 +60,8 @@ function App() {
         <div className="learn">
           <h1>Learn Web & Mobile Development. Access the global job market.</h1>
           <p>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
-          <p className='btn'><a href="/src/learn.jsx">Learn more</a></p>
+          <Btns text={"Learn more"} />
+
         </div>
 
         <div className="line bg-[#d1d5db] h-[80%] w-[2px] flex justify-self-center"></div>
