@@ -13,8 +13,7 @@
 
 
 *::-webkit-scrollbar-thumb {
-  background-color: #1b734f;
-  border-radius: 30px;
+  @apply bg-primary rounded-[30px]
 }
 
 .body {
@@ -54,7 +53,7 @@ header {
 }
 
 .btn {
-  @apply py-[0.5rem] px-[1rem] bg-[#1b734f] w-[max-content] text-white rounded text-[1.5rem] mt-[1rem] cursor-pointer
+  @apply py-[0.5rem] px-[1rem] bg-primary w-[max-content] text-white rounded text-[1.5rem] mt-[1rem] cursor-pointer
 }
 
 .learn h1 {
@@ -66,7 +65,7 @@ header {
 }
 
 .web2 h1 {
-  @apply text-[#1b734f] mb-1
+  @apply text-primary mb-1
 }
 
 .web2 {
