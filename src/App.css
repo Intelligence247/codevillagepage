@@ -1,0 +1,170 @@
+* {
+    @apply p-0 m-0 box-border
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+    background-color: white;
+
+}
+
+
+*::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-[30px]
+}
+
+.body {
+    @apply relative overflow-hidden
+}
+
+header {
+    @apply relative h-[60rem] w-[100vw] bg-[url(/media/contour.svg)] mb-[5rem]
+}
+
+.join {
+    @apply text-[1.5rem] w-[40rem]
+}
+
+.webuild {
+    @apply text-[#18214d] text-[5rem] leading-[6rem] font-[600] w-[25rem] mt-[3rem]
+}
+
+.cvlogolmg {
+    @apply w-[8rem]
+}
+
+.logos img {
+    @apply w-[2.5rem]
+}
+
+.ecosystem {
+    @apply w-[100vw] px-[10rem] pb-[10rem]
+}
+
+.ecosystemtexts {
+    @apply flex w-[65rem] m-[auto] gap-8
+}
+
+.ecosystemtexts p:first-child {
+    @apply w-[56%] text-[3.3rem] text-[#18214d]
+}
+
+.ecosystemtexts p:nth-child(2) {
+    @apply w-[40%] text-[1rem] grid place-items-center leading-[2rem]
+}
+
+.web h1 {
+    @apply text-[1.5rem] text-[#18214d] mb-2
+}
+
+.whatwedo {
+    @apply flex justify-between mt-[3rem]
+}
+
+.web {
+    @apply flex w-[31.33%] gap-[1rem]
+}
+
+.web img {
+    @apply w-[3rem] h-[3rem]
+}
+
+.ourservice {
+    @apply flex flex-col gap-6 ml-[8rem] pt-[4rem]
+}
+
+.global {
+    @apply bg-[#eff2f6] h-[33rem] px-[10rem] flex items-center justify-between
+}
+
+.btn {
+    @apply py-[0.5rem] px-[1rem] bg-primary w-[max-content] text-white rounded text-[1.5rem] mt-[1rem] cursor-pointer
+}
+
+.learn h1 {
+    @apply text-[#18214d] text-[3rem] font-[600] leading-[3rem]
+}
+
+.learn {
+    @apply w-[40rem] flex flex-col gap-8 justify-center h-[100%]
+}
+
+.web2 h1 {
+    @apply text-primary mb-1
+}
+
+.web2 {
+    @apply w-[18rem]
+}
+
+.schedule {
+    @apply flex flex-col gap-8
+}
+
+.expertise {
+    @apply bg-[#f4f8f6] px-[6rem] pt-[5rem] w-[100vw]
+}
+
+.expertise h1 {
+    @apply text-[4rem] text-center font-[700]
+}
+
+.expertise p {
+    @apply text-[1.5rem] m-[auto] text-center w-[50rem]
+}
+
+.images {
+    @apply flex flex-wrap gap-[5rem] justify-center mt-[5rem] pb-[6rem]
+}
+
+.kids {
+    @apply mb-[5rem]
+}
+
+.kids h1 {
+    @apply text-[4rem] leading-[4rem] text-center m-[auto] mt-[4rem] mb-8
+}
+
+.kids p {
+    @apply text-center
+}
+
+.kids p:last-child {
+    @apply font-[600] text-[#18214d] flex gap-2 justify-center mt-6 items-center
+}
+
+.address {
+    @apply bg-[#f4f8f6] px-[10rem] py-[4rem] h-[auto]
+}
+
+.programs {
+    @apply flex justify-between
+}
+
+.program {
+    @apply flex gap-[1.5rem] flex-col w-[20%]
+}
+
+.program p:first-child {
+    @apply text-[2rem] text-[#18214d]
+}
+
+.program p {
+    @apply text-[1.4rem]
+}
+
+.numbers {
+    @apply text-[#18214d] font-[700] cursor-pointer text-[1.4rem]
+}
+
+.custom {
+    @apply text-[#9ca3af]
+}
+
+.horizontal {
+    @apply bg-[#e0e0e0] w-[100%] h-[2px] my-[3rem]
+}
+
+.footer {
+    @apply flex justify-between
+}

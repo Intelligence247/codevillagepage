@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="footer flex justify-between">
+        <div className="footer">
             <p className=''>Copyright &copy; 2020-2023 Codevillage Limited</p>
 
             <div className="footerlogo flex gap-6">

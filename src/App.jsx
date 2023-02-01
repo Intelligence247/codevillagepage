@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="body">
       <header>
-        <img src="/media/hero_bg.png" alt="" className='h-[60rem] absolute right-0 ' />
-        <div className="ourservice flex flex-col gap-6 ml-[8rem] pt-[4rem]">
-          <img src="/media/cv-logo.svg" alt="" className='w-[8rem]' />
-          <h1 className='text-[#18214d] text-[5rem] leading-[6rem] font-[600] font-segoe UI w-[25rem] mt-[3rem]'>We build world class Tech talents</h1>
-          <p className='text-[1.5rem] w-[40rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
+        <img src="/media/hero_bg.png" alt="" className='heroimg h-[60rem] absolute right-0 ' />
+        <div className="ourservice ">
+          <img src="/media/cv-logo.svg" alt="" className='cvlogolmg' />
+          <h1 className='webuild'>We build world class Tech talents</h1>
+          <p className='join'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
           <Btns text={"Enroll now"} />
           <div className="logos flex gap-6 mt-[3rem]">
             <img src="/media/fb-icon.svg" alt="" />
@@ -26,12 +26,12 @@ function App() {
         </div>
       </header>
 
-      <div className="ecosystem  w-[100vw] px-[10rem] pb-[10rem]">
+      <div className="ecosystem">
         <div className="ecosystemtexts">
-          <p className='w-[56%] text-[3.3rem] text-[#18214d]'>State of The Art
+          <p className=''>State of The Art
             Ecosystem for Creatives
           </p>
-          <p className='w-[40%] text-[1rem] grid place-items-center leading-[2rem]' >Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
+          <p className='' >Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
         </div>
 
         <img src="/media/cv-office.jpg" className='mt-[4rem] w-[100vw]' alt="" />
@@ -117,7 +117,7 @@ function App() {
 
 
       <div className="kids  w-[40rem] m-[auto]">
-        <h1 className='text-[4rem] leading-[4rem] text-center m-[auto] mt-[4rem] mb-8'>Codevillage Kids & Teens Code Classes</h1>
+        <h1>Codevillage Kids & Teens Code Classes</h1>
         <p>Will your kids be able to build a tech solution? Yes, It’s possible.</p>
         <p>“We catch them young” by introducing these fresh minds into how computer works and how to make it do what they want.</p>
 
@@ -158,7 +158,7 @@ function App() {
           </div>
         </div>
 
-        <div className="horizontal bg-[#e0e0e0] w-[100%] h-[2px] my-[3rem]"></div>
+        <div className="horizontal"></div>
         <Footer />
       </div>
 
@@ -166,5 +166,4 @@ function App() {
     </div>
   )
 }
-
 export default App

@@ -2,9 +2,7 @@ import React from 'react'
 
 const Btns = ({ text }) => {
     return (
-        <p className='btn'>{text}</p>
+        <button className='btn'>{text}</button>
     )
 }
-
-
 export default Btns
